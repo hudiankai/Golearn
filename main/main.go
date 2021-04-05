@@ -1,7 +1,13 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
+
 
 func main()  {
-	fmt.Println("asdadf")
+	fmt.Println("ada")
+
+	Liming := Learn.Student{ 	Age: 12, 	Sex: "Man", 	Num: 1, }
 }
+
