@@ -31,7 +31,7 @@ func LockandRead(S *Student)  {
 	defer S.RML.RUnlock()
 }
 
-//读写锁内使用读写锁(四个函数只有这一个是没有错误的)
+//读写锁内使用读写锁(四个函数只有这一个是没有错误的,只有读锁可以互相嵌套)
 func ReadandRead(s *Student)  {
 	s.RML.RLock()
 	defer s.RML.RUnlock()
