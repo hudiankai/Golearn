@@ -4,6 +4,13 @@ import (
 	"fmt"
 	"sync"
 )
+/*main函数中的代码
+Liming := Learn.Student{ 	Age: 12, 	Sex: "Man", 	Num: 1, }
+Liming.RML.RLock()
+fmt.Println(Liming)
+Learn.ReadandRead(&Liming)
+defer Liming.RML.RUnlock()
+ */
 
 type Student struct {
 	Age int
