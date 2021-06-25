@@ -1,8 +1,10 @@
 package main
 
-import "Golearn/Learn"
+import (
+	"Golearn/Cli"
+)
 
 func main()  {
-	Learn.Rangechan()
+	Cli.CLimain()
 }
 
